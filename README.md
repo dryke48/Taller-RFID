@@ -1,41 +1,57 @@
 <h1 align="center">Taller - Explotación RFID</h1>
 
-<p align="center"><img width="300" height="300" alt="Gemini_Generated_Image_1wjfi61wjfi61wjf (1)-modified" src="https://github.com/user-attachments/assets/c70a19fa-2a5a-44ed-9d4d-c0ec5e2666ed" /></p>
+<p align="center">
+<img width="300" height="300" alt="Gemini_Generated_Image_1wjfi61wjfi61wjf (1)-modified" src="https://github.com/user-attachments/assets/c70a19fa-2a5a-44ed-9d4d-c0ec5e2666ed" />
+</p>
 
 ---
 
 ****Autores***: Sergio González, Iván Paúl, Javier Calvillo y Manuel Pérez*
 
 ---
-
 ## Índice
 
-1. [***Introducción***](#1-introducción)
-2. [***Practicas Explotación***](#2-practicas-explotación)
-3. [***Evaluación de Conocimientos y Repaso del Taller***](#3-evaluación-de-conocimientos-y-repaso-del-taller)
+1. [Introducción](#1-introducción)
+2. [Preparación del entorno](#2-preparación-del-entorno)
+3. [Prácticas de explotación](#3-prácticas-de-explotación)
+4. [Evaluación de conocimientos y repaso del taller](#4-evaluación-de-conocimientos-y-repaso-del-taller)
 
 ---
-## 1. ***Introducción***
+## 1. Introducción
 
 Este repositorio recoge las prácticas del Taller de Explotación RFID, donde se documentan los procedimientos y comandos utilizados durante el taller.
 
 El objetivo es entender, de forma práctica, cómo se pueden explotar sistemas RFID: obtener información de tarjetas, extraer claves y clonar llaves de acceso usando Proxmark3. Las medidas de protección se muestran de manera demostrativa durante el taller.
 
 ---
-## 2. ***Practicas Explotación***
+## 2. Preparación del entorno
+
+Antes de comenzar las prácticas es necesario preparar el entorno de trabajo con Proxmark3.
+
+Dependiendo del sistema operativo, se debe seguir una de las siguientes opciones:
+
+- **Linux** → [Instalación del entorno Proxmark3 en Linux](./Instalacion/instalacionLinux.md)
+- **Windows (ProxSpace)** → Se utilizará el entorno proporcionado durante el taller
+
+---
+## 3. Prácticas de explotación
 
 En esta sección se documentan las prácticas del taller, centradas en la explotación de sistemas RFID y el uso de Proxmark3.
 
 ---
-- [***Práctica 1: Preparación del entorno ProxSpace***](./Practicas/Practica1.md)
+
+- [Práctica 1: Preparación del entorno ProxSpace](./Practicas/Practica1.md)
 ---
-- [***Práctica 2: Lectura y ataque a una tarjeta RFID***](./Practicas/Practica2.md)
+
+- [Práctica 2: Lectura y ataque a una tarjeta RFID](./Practicas/Practica2.md)
 ---
-- [***Práctica 3: Preparación y escritura de bloques en una tarjeta RFID***](./Practicas/Practica3.md)
+
+- [Práctica 3: Preparación y escritura de bloques en una tarjeta RFID](./Practicas/Practica3.md)
 ---
-- [***Práctica 4: Clonación de una tarjeta RFID y comprobación de acceso***](./Practicas/Practica4.md)
+
+- [Práctica 4: Clonación de una tarjeta RFID y comprobación de acceso](./Practicas/Practica4.md)
 
 ---
-## 3. Evaluación de Conocimientos y Repaso del Taller
+## 4. Evaluación de conocimientos y repaso del taller
 
 Para finalizar el taller se realiza una breve evaluación mediante **Kahoot**, utilizada como repaso de los conceptos vistos durante las prácticas.
