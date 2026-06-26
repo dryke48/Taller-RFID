@@ -6,7 +6,7 @@
 
 ---
 
-****Autores***: Sergio González, Iván Paúl, Javier Calvillo y Manuel Pérez*
+***Autores***: Sergio González, Iván Paúl, Javier Calvillo y Manuel Pérez*
 
 ---
 ## Índice
@@ -19,9 +19,9 @@
 ---
 ## 1. Introducción
 
-Este repositorio recoge las prácticas del Taller de Explotación RFID, donde se documentan los procedimientos y comandos utilizados durante el taller.
+Este repositorio documenta las prácticas realizadas durante el Taller de Explotación RFID, incluyendo los procedimientos, comandos utilizados y resultados obtenidos durante el desarrollo del mismo.
 
-El objetivo es entender, de forma práctica, cómo se pueden explotar sistemas RFID: obtener información de tarjetas, extraer claves y clonar llaves de acceso usando Proxmark3. Las medidas de protección se muestran de manera demostrativa durante el taller.
+El objetivo del taller es comprender, de forma práctica, cómo se pueden analizar y explotar sistemas RFID mediante el uso de Proxmark3, incluyendo la obtención de información de tarjetas, extracción de claves y clonación de credenciales de acceso en un entorno controlado.
 
 ---
 ## 2. Preparación del entorno
@@ -30,7 +30,7 @@ Antes de comenzar las prácticas es necesario preparar el entorno de trabajo con
 
 Dependiendo del sistema operativo, se debe seguir una de las siguientes opciones:
 
-- **Linux** → [Instalación del entorno Proxmark3 en Linux](./Instalacion/instalacionLinux.md)
+- **Linux** → [Instalación del entorno Proxmark3 en Linux](./installation/proxmark3_linux_setup.md)
 - **Windows (ProxSpace)** → Se utilizará el entorno proporcionado durante el taller
 
 ---
@@ -40,16 +40,16 @@ En esta sección se documentan las prácticas del taller, centradas en la explot
 
 ---
 
-- [Práctica 1: Preparación del entorno ProxSpace](./Practicas/Practica1.md)
+- [Práctica 1: Preparación del entorno](./labs/lab1_environment_setup.md)
 ---
 
-- [Práctica 2: Lectura y ataque a una tarjeta RFID](./Practicas/Practica2.md)
+- [Práctica 2: Lectura y ataque a una tarjeta RFID](./labs/lab2_rfid_card_analysis_and_key_recovery.md)
 ---
 
-- [Práctica 3: Preparación y escritura de bloques en una tarjeta RFID](./Practicas/Practica3.md)
+- [Práctica 3: Preparación y escritura de bloques en una tarjeta RFID](./labs/lab3_rfid_card_cloning_preparation.md)
 ---
 
-- [Práctica 4: Clonación de una tarjeta RFID y comprobación de acceso](./Practicas/Practica4.md)
+- [Práctica 4: Clonación completa de una tarjeta RFID y comprobación de acceso](./labs/lab4_rfid_card_cloning_and_access_verification.md)
 
 ---
 ## 4. Evaluación de conocimientos y repaso del taller
